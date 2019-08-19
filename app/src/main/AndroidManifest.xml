@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tbg.www.thebutterflycorner">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".parthenos_slyvia"
+            android:label="@string/title_activity_parthenos_slyvia"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".papilio_memnon"
+            android:label="@string/title_activity_papilio_memnon"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".papilio_demoleus"
+            android:label="@string/title_activity_papilio_demoleus"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".pachliopta_aristolochiae"
+            android:label="@string/title_activity_pachliopta_aristolochiae"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".hypolimnas_bolina"
+            android:label="@string/title_activity_hypolimnas_bolina"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Graphium_Agamemnon"
+            android:label="@string/title_activity_graphium__agamemnon"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Danaus_Chrysippus"
+            android:label="@string/title_activity_danaus__chrysippus"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".cethosia_cyane"
+            android:label="@string/title_activity_cethosia_cyane"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".acraea_violae"
+            android:label="@string/title_activity_acraea_violae"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".butterfly_db"
+            android:label="@string/title_activity_butterfly_db"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Profile_Page"
+            android:label="@string/title_activity_profile__page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".About_Us"
+            android:label="@string/title_activity_about__us"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Sign_Up"
+            android:label="@string/title_activity_sign__up"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Log_in"
+            android:label="@string/title_activity_log_in"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
