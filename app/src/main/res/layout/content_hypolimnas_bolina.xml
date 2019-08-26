@@ -24,24 +24,6 @@
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@mipmap/hypolimnas_bolina_round" />
 
-    <EditText
-        android:id="@+id/editText19"
-        android:layout_width="395dp"
-        android:layout_height="107dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
-        android:ems="10"
-        android:gravity="start|top"
-        android:inputType="textMultiLine"
-        android:text="Hypolimnas bolina, the great eggfly, common eggfly or in New Zealand the blue moon butterfly is a species of nymphalid butterfly found from Madagascar to Asia and Australia"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.244" />
-
     <TextView
         android:id="@+id/textView64"
         android:layout_width="215dp"
@@ -249,6 +231,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.947" />
+
+    <TextView
+        android:id="@+id/textView125"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.278"
+        tools:text="Hypolimnas bolina, the great eggfly, common eggfly or in New Zealand the blue moon butterfly is a species of nymphalid butterfly found from Madagascar to Asia and Australia" />
 
 
 </android.support.constraint.ConstraintLayout>
