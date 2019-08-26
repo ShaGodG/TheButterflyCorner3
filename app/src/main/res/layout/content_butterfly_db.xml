@@ -43,7 +43,7 @@
         app:srcCompat="@mipmap/acrea_violae_round" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/cethosia_cyane_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -59,7 +59,7 @@
         app:srcCompat="@mipmap/cethosia_cyane_round" />
 
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/danauschrysippusbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -75,7 +75,7 @@
         app:srcCompat="@mipmap/danaus_chrysippus_round" />
 
     <ImageButton
-        android:id="@+id/imageButton4"
+        android:id="@+id/graphiumagamemnonbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -91,7 +91,7 @@
         app:srcCompat="@mipmap/graphium_agamemnon_round" />
 
     <ImageButton
-        android:id="@+id/imageButton5"
+        android:id="@+id/hypolimnasbolinabtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -107,7 +107,7 @@
         app:srcCompat="@mipmap/hypolimnas_bolina_round" />
 
     <ImageButton
-        android:id="@+id/imageButton6"
+        android:id="@+id/pacharistobtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -123,7 +123,7 @@
         app:srcCompat="@mipmap/pachliopta_aristolochiae_round" />
 
     <ImageButton
-        android:id="@+id/imageButton7"
+        android:id="@+id/papiliodemobtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -139,7 +139,7 @@
         app:srcCompat="@mipmap/papilio_demoleus_round" />
 
     <ImageButton
-        android:id="@+id/imageButton8"
+        android:id="@+id/papiliomemnonbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -155,7 +155,7 @@
         app:srcCompat="@mipmap/papilio_memnon_round" />
 
     <ImageButton
-        android:id="@+id/imageButton9"
+        android:id="@+id/parthenosslyviabtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"

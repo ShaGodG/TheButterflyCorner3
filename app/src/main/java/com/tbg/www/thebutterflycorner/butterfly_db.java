@@ -41,12 +41,84 @@ public class butterfly_db extends AppCompatActivity
         toggle.syncState();
         navigationView.setNavigationItemSelectedListener(this);
 
-        ImageButton myButton = (ImageButton) findViewById(R.id.acreaviolaebtn);
-        final Context context = this;
-        myButton.setOnClickListener(new View.OnClickListener() {
+        ImageButton avbtn = (ImageButton) findViewById(R.id.acreaviolaebtn);
+        final Context contextav = this;
+        avbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(context,acraea_violae.class);
+                Intent intent = new Intent(contextav,acraea_violae.class);
+                startActivity(intent);
+            }
+        });
+        ImageButton ccbtn = (ImageButton) findViewById(R.id.cethosia_cyane_btn);
+        final Context contextcc = this;
+        ccbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(contextcc,acraea_violae.class);
+                startActivity(intent);
+            }
+        });
+        ImageButton dcbtn = (ImageButton) findViewById(R.id.danauschrysippusbtn);
+        final Context contextdc = this;
+        ccbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(contextdc,Danaus_Chrysippus.class);
+                startActivity(intent);
+            }
+        });
+        ImageButton gabtn = (ImageButton) findViewById(R.id.graphiumagamemnonbtn);
+        final Context contextga = this;
+        ccbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(contextga,Graphium_Agamemnon.class);
+                startActivity(intent);
+            }
+        });
+        ImageButton hbbtn = (ImageButton) findViewById(R.id.hypolimnasbolinabtn);
+        final Context contexthb = this;
+        ccbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(contexthb,hypolimnas_bolina.class);
+                startActivity(intent);
+            }
+        });
+        ImageButton pabtn = (ImageButton) findViewById(R.id.pacharistobtn);
+        final Context contextpa = this;
+        ccbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(contextpa,pachliopta_aristolochiae.class);
+                startActivity(intent);
+            }
+        });
+        ImageButton pdbtn = (ImageButton) findViewById(R.id.papiliodemobtn);
+        final Context contextpd = this;
+        ccbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(contextpd,papilio_demoleus.class);
+                startActivity(intent);
+            }
+        });
+        ImageButton pmbtn = (ImageButton) findViewById(R.id.papiliomemnonbtn);
+        final Context contextpm = this;
+        ccbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(contextpm,papilio_memnon.class);
+                startActivity(intent);
+            }
+        });
+        ImageButton psbtn = (ImageButton) findViewById(R.id.parthenosslyviabtn);
+        final Context contextps = this;
+        ccbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(contextps,parthenos_slyvia.class);
                 startActivity(intent);
             }
         });
