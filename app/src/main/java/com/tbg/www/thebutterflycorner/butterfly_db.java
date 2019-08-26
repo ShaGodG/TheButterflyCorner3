@@ -16,6 +16,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageButton;
 
+import de.hdodenhof.circleimageview.CircleImageView;
+
 public class butterfly_db extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -41,7 +43,7 @@ public class butterfly_db extends AppCompatActivity
         toggle.syncState();
         navigationView.setNavigationItemSelectedListener(this);
 
-        ImageButton avbtn = (ImageButton) findViewById(R.id.acreaviolaebtn);
+        CircleImageView avbtn = findViewById(R.id.acreaviolaebtn);
         final Context contextav = this;
         avbtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -50,7 +52,7 @@ public class butterfly_db extends AppCompatActivity
                 startActivity(intent);
             }
         });
-        ImageButton ccbtn = (ImageButton) findViewById(R.id.cethosia_cyane_btn);
+        CircleImageView ccbtn = findViewById(R.id.cethosia_cyane_btn);
         final Context contextcc = this;
         ccbtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -59,7 +61,7 @@ public class butterfly_db extends AppCompatActivity
                 startActivity(intent);
             }
         });
-        ImageButton dcbtn = (ImageButton) findViewById(R.id.danauschrysippusbtn);
+        CircleImageView dcbtn = findViewById(R.id.danauschrysippusbtn);
         final Context contextdc = this;
         dcbtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -68,7 +70,7 @@ public class butterfly_db extends AppCompatActivity
                 startActivity(intent);
             }
         });
-        ImageButton gabtn = (ImageButton) findViewById(R.id.graphiumagamemnonbtn);
+        CircleImageView gabtn = findViewById(R.id.graphiumagamemnonbtn);
         final Context contextga = this;
         gabtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -77,7 +79,7 @@ public class butterfly_db extends AppCompatActivity
                 startActivity(intent);
             }
         });
-        ImageButton hbbtn = (ImageButton) findViewById(R.id.hypolimnasbolinabtn);
+        CircleImageView hbbtn = findViewById(R.id.hypolimnasbolinabtn);
         final Context contexthb = this;
         hbbtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -86,7 +88,7 @@ public class butterfly_db extends AppCompatActivity
                 startActivity(intent);
             }
         });
-        ImageButton pabtn = (ImageButton) findViewById(R.id.pacharistobtn);
+        CircleImageView pabtn = findViewById(R.id.pacharistobtn);
         final Context contextpa = this;
         pabtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -95,7 +97,7 @@ public class butterfly_db extends AppCompatActivity
                 startActivity(intent);
             }
         });
-        ImageButton pdbtn = (ImageButton) findViewById(R.id.papiliodemobtn);
+        CircleImageView pdbtn = findViewById(R.id.papiliodemobtn);
         final Context contextpd = this;
         pdbtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -104,7 +106,7 @@ public class butterfly_db extends AppCompatActivity
                 startActivity(intent);
             }
         });
-        ImageButton pmbtn = (ImageButton) findViewById(R.id.papiliomemnonbtn);
+        CircleImageView pmbtn = findViewById(R.id.papiliomemnonbtn);
         final Context contextpm = this;
         pmbtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -113,7 +115,7 @@ public class butterfly_db extends AppCompatActivity
                 startActivity(intent);
             }
         });
-        ImageButton psbtn = (ImageButton) findViewById(R.id.parthenosslyviabtn);
+        CircleImageView psbtn = findViewById(R.id.parthenosslyviabtn);
         final Context contextps = this;
         psbtn.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -26,10 +26,13 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
-    <ImageButton
+    <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/acreaviolaebtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:src="@mipmap/acrea_violae_round"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
@@ -40,12 +43,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.121"
-        app:srcCompat="@mipmap/acrea_violae_round" />
+        android:foreground="@drawable/my_selector"
+        android:clickable="true"
+        android:focusable="true"/>
 
-    <ImageButton
+    <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/cethosia_cyane_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:src="@mipmap/cethosia_cyane_round"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
@@ -56,12 +64,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.121"
-        app:srcCompat="@mipmap/cethosia_cyane_round" />
+        android:foreground="@drawable/my_selector"
+        android:clickable="true"
+        android:focusable="true"/>
 
-    <ImageButton
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/danauschrysippusbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:src="@mipmap/danaus_chrysippus_round"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
@@ -72,12 +87,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.121"
-        app:srcCompat="@mipmap/danaus_chrysippus_round" />
+        android:foreground="@drawable/my_selector"
+        android:clickable="true"
+        android:focusable="true"/>
 
-    <ImageButton
+    <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/graphiumagamemnonbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:src="@mipmap/graphium_agamemnon_round"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
@@ -88,12 +108,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.341"
-        app:srcCompat="@mipmap/graphium_agamemnon_round" />
+        android:foreground="@drawable/my_selector"
+        android:clickable="true"
+        android:focusable="true"/>
 
-    <ImageButton
+    <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/hypolimnasbolinabtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:src="@mipmap/hypolimnas_bolina_round"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
@@ -104,12 +129,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.341"
-        app:srcCompat="@mipmap/hypolimnas_bolina_round" />
+        android:foreground="@drawable/my_selector"
+        android:clickable="true"
+        android:focusable="true"/>
 
-    <ImageButton
+    <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/pacharistobtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:src="@mipmap/pachliopta_aristolochiae_round"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
@@ -120,12 +150,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.341"
-        app:srcCompat="@mipmap/pachliopta_aristolochiae_round" />
+        android:foreground="@drawable/my_selector"
+        android:clickable="true"
+        android:focusable="true"/>
 
-    <ImageButton
+    <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/papiliodemobtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:src="@mipmap/papilio_demoleus_round"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
@@ -136,12 +171,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.573"
-        app:srcCompat="@mipmap/papilio_demoleus_round" />
+        android:foreground="@drawable/my_selector"
+        android:clickable="true"
+        android:focusable="true"/>
 
-    <ImageButton
+
+    <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/papiliomemnonbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:src="@mipmap/papilio_memnon_round"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
@@ -152,12 +193,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.573"
-        app:srcCompat="@mipmap/papilio_memnon_round" />
+        android:foreground="@drawable/my_selector"
+        android:clickable="true"
+        android:focusable="true"/>
 
-    <ImageButton
+    <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/parthenosslyviabtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:src="@mipmap/parthenos_sylvia_round"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
@@ -168,6 +214,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.573"
-        app:srcCompat="@mipmap/parthenos_sylvia_round" />
+        android:foreground="@drawable/my_selector"
+        android:clickable="true"
+        android:focusable="true"/>
 
 </android.support.constraint.ConstraintLayout>
