@@ -25,7 +25,7 @@
         android:layout_width="387dp"
         android:layout_height="37dp"
         android:background="#F5DD07"
-        android:text=" PLAY BUTTERFLY GAMES AND GET COUPONS"
+        android:text= "PLAY BUTTERFLY GAMES AND GET COUPONS"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="18sp"
         android:textStyle="bold|italic"
@@ -35,43 +35,52 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.222" />
 
-    <ImageButton
+
+    <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/imageButton12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:src="@mipmap/coupon_round"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.101"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.757"
-        app:srcCompat="@mipmap/coupon_round" />
+        app:layout_constraintVertical_bias="0.757"/>
 
-    <ImageButton
+    <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/imageButton13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:src="@mipmap/contact_us_round"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.755"
-        app:srcCompat="@mipmap/contact_us_round" />
+        app:layout_constraintVertical_bias="0.755"/>
 
-    <ImageButton
+
+    <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/imageButton14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:src="@mipmap/log_in_round"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.876"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499"
-        app:srcCompat="@mipmap/log_in_round" />
+        app:layout_constraintVertical_bias="0.499"/>
 
-    <ImageButton
+
+    <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/imageButton15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -81,32 +90,39 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.499"
-        app:srcCompat="@mipmap/butterfly_round" />
+        android:src="@mipmap/butterfly_round"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp">
 
-    <ImageButton
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/imageButton16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:src="@mipmap/menu_round"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.101"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499"
-        app:srcCompat="@mipmap/menu_round" />
+        app:layout_constraintVertical_bias="0.499" />
 
-    <ImageButton
+
+    <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/imageButton18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="68dp"
-        android:layout_marginBottom="16dp"
+        android:src="@mipmap/share_round"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.842"
+        app:layout_constraintHorizontal_bias="0.879"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.779"
-        app:srcCompat="@mipmap/share_round" />
+        app:layout_constraintVertical_bias="0.755" />
 
 </android.support.constraint.ConstraintLayout>
