@@ -8,18 +8,6 @@
     tools:context=".MainActivity"
     tools:showIn="@layout/app_bar_main">
 
-    <ImageButton
-        android:id="@+id/imageButton11"
-        android:layout_width="415dp"
-        android:layout_height="170dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.454"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        tools:srcCompat="@tools:sample/backgrounds/scenic[3]" />
-
     <TextView
         android:id="@+id/textView117"
         android:layout_width="387dp"
