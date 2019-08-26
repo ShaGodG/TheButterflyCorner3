@@ -1,5 +1,6 @@
 package com.tbg.www.thebutterflycorner;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -13,12 +14,11 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
+import android.widget.ImageButton;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
-    private Button buttontwo, buttonone;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -40,30 +40,26 @@ public class MainActivity extends AppCompatActivity
         drawer.addDrawerListener(toggle);
         toggle.syncState();
         navigationView.setNavigationItemSelectedListener(this);
-        buttontwo = (Button) findViewById(R.id.buttontwo);
-        buttontwo.setOnClickListener(new View.OnClickListener() {
+        ImageButton myButton = (ImageButton) findViewById(R.id.imageButton15);
+        final Context context = this;
+        myButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openLoginActivity();
+                Intent intent = new Intent(context,butterfly_db.class);
+                startActivity(intent);
             }
         });
-        buttonone = (Button) findViewById(R.id.buttonone);
-        buttonone.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                openSignUpActivity();
-            }
-        });
-    }
-    public void openSignUpActivity(){
-        Intent intent = new Intent ( this, Sign_Up.class);
-        startActivity(intent);
     }
 
-    public void openLoginActivity(){
-        Intent intent = new Intent(this, Log_in.class);
-        startActivity(intent);
-    }
+//    public void openSignUpActivity(){
+//        Intent intent = new Intent ( this, Sign_Up.class);
+//        startActivity(intent);
+//    }
+//
+//    public void openLoginActivity(){
+//        Intent intent = new Intent(this, Log_in.class);
+//        startActivity(intent);
+//    }
 
     @Override
     public void onBackPressed() {
