@@ -12,7 +12,7 @@
         <activity
             android:name=".parthenos_slyvia"
             android:label="@string/title_activity_parthenos_slyvia"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".papilio_memnon"
             android:label="@string/title_activity_papilio_memnon"

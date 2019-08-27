@@ -41,13 +41,45 @@ public class MainActivity extends AppCompatActivity
         drawer.addDrawerListener(toggle);
         toggle.syncState();
         navigationView.setNavigationItemSelectedListener(this);
-        CircleImageView myButton = findViewById(R.id.imageButton15);
+        CircleImageView butdb = findViewById(R.id.imageButton15);
         final Context context = this;
-        myButton.setOnClickListener(new View.OnClickListener() {
+        butdb.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(context,butterfly_db.class);
                 startActivity(intent);
+            }
+        });
+        CircleImageView signup = findViewById(R.id.signupbtn);
+        final Context contextsu = this;
+        signup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(contextsu,Sign_Up.class);
+                startActivity(intent);
+            }
+        });
+        CircleImageView conbtn = findViewById(R.id.cntctus);
+        final Context contextcntct = this;
+        conbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(contextcntct,About_Us.class);
+                startActivity(intent);
+            }
+        });
+        CircleImageView sharebt = findViewById(R.id.shareapbtn);
+        final Context contextshare = this;
+        sharebt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent shareintent = new Intent(Intent.ACTION_SEND);
+                shareintent.setType("text/plain");
+                String sharebody = "Send Viaa";
+                String sharesubject = "Send Via";
+                shareintent.putExtra(Intent.EXTRA_SUBJECT, sharesubject);
+                shareintent.putExtra(Intent.EXTRA_TEXT, sharebody);
+                startActivity(Intent.createChooser(shareintent, "Share Using"));
             }
         });
     }

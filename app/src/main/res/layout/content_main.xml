@@ -25,7 +25,7 @@
 
 
     <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/imageButton12"
+        android:id="@+id/couponbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@mipmap/coupon_round"
@@ -42,7 +42,7 @@
         android:focusable="true"/>
 
     <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/imageButton13"
+        android:id="@+id/cntctus"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@mipmap/contact_us_round"
@@ -60,7 +60,7 @@
 
 
     <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/imageButton14"
+        android:id="@+id/signupbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@mipmap/log_in_round"
@@ -97,7 +97,7 @@
 
 
     <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/imageButton16"
+        android:id="@+id/menubtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@mipmap/menu_round"
@@ -115,7 +115,7 @@
 
 
     <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/imageButton18"
+        android:id="@+id/shareapbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@mipmap/share_round"
