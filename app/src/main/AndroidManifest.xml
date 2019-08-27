@@ -10,6 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".number_of_players"
+            android:label="@string/title_activity_number_of_players"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
             android:name=".parthenos_slyvia"
             android:label="@string/title_activity_parthenos_slyvia"
             android:theme="@style/AppTheme.NoActionBar" />

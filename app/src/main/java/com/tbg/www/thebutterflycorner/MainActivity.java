@@ -68,6 +68,15 @@ public class MainActivity extends AppCompatActivity
                 startActivity(intent);
             }
         });
+        FloatingActionButton playbtn = findViewById(R.id.fab);
+        final Context contextplay = this;
+        playbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(contextplay,number_of_players.class);
+                startActivity(intent);
+            }
+        });
         CircleImageView sharebt = findViewById(R.id.shareapbtn);
         final Context contextshare = this;
         sharebt.setOnClickListener(new View.OnClickListener() {

@@ -29,4 +29,5 @@
     <string name="title_activity_papilio_demoleus">Papilio Demoleus</string>
     <string name="title_activity_papilio_memnon">Papilio Memnon</string>
     <string name="title_activity_parthenos_slyvia">Parthenos Slyvia</string>
+    <string name="title_activity_number_of_players">Number Of Players</string>
 </resources>
