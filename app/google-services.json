@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "534201775291",
+    "firebase_url": "https://butterfly-corner.firebaseio.com",
+    "project_id": "butterfly-corner",
+    "storage_bucket": "butterfly-corner.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:534201775291:android:064e0fcdf91307af",
+        "android_client_info": {
+          "package_name": "com.tbg.www.thebutterflycorner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "534201775291-o71jeeob3u402a65grpi4n71s29tas9h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2Kc8K0Utz-6mU1unpn7ds89hPGNp0m_s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "534201775291-o71jeeob3u402a65grpi4n71s29tas9h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
