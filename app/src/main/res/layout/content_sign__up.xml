@@ -7,7 +7,7 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".Sign_Up"
     tools:showIn="@layout/app_bar_sign__up">
-
+<!--
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="86dp"
@@ -178,5 +178,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.948"
-        app:srcCompat="@mipmap/google_logo_round" />
+        app:srcCompat="@mipmap/google_logo_round" />-->
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
