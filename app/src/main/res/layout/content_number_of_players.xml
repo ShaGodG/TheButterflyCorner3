@@ -24,7 +24,7 @@
         app:layout_constraintVertical_bias="0.048" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/single_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Alone i can achieve anything"

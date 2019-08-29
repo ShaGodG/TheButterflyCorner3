@@ -31,4 +31,8 @@
     <string name="title_activity_parthenos_slyvia">Parthenos Slyvia</string>
     <string name="title_activity_number_of_players">Number Of Players</string>
     <string name="title_activity_itempage">Menu</string>
+    <string name="title_activity_capture_butterfly">Capture Butterfly</string>
+    <string name="preview_description">Image preview will appear here</string>
+    <string name="btn_take_picture">Take Picture</string>
+    <string name="btn_confirm_picture">Confirm Picture</string>
 </resources>

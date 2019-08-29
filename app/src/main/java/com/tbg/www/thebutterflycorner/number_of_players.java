@@ -1,11 +1,16 @@
 package com.tbg.www.thebutterflycorner;
 
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
+import android.view.View;
+import android.widget.Button;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
-import android.view.View;
+
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.snackbar.Snackbar;
 
 public class number_of_players extends AppCompatActivity {
 
@@ -15,6 +20,16 @@ public class number_of_players extends AppCompatActivity {
         setContentView(R.layout.activity_number_of_players);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        Button singlebtn = findViewById(R.id.single_btn);
+        final Context contextsingle = this;
+        singlebtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(contextsingle,capture_butterfly.class);
+                startActivity(intent);
+            }
+        });
 
         FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
