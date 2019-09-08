@@ -3,19 +3,20 @@ package com.tbg.www.thebutterflycorner;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.navigation.NavigationView;
-import com.google.android.material.snackbar.Snackbar;
-import androidx.core.view.GravityCompat;
-import androidx.drawerlayout.widget.DrawerLayout;
-import androidx.appcompat.app.ActionBarDrawerToggle;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-import de.hdodenhof.circleimageview.CircleImageView;
+import androidx.appcompat.app.ActionBarDrawerToggle;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.cardview.widget.CardView;
+import androidx.core.view.GravityCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
+
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.navigation.NavigationView;
+import com.google.android.material.snackbar.Snackbar;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -41,7 +42,7 @@ public class MainActivity extends AppCompatActivity
         drawer.addDrawerListener(toggle);
         toggle.syncState();
         navigationView.setNavigationItemSelectedListener(this);
-        CircleImageView butdb = findViewById(R.id.imageButton15);
+        CardView butdb = findViewById(R.id.imageButton15);
         final Context context = this;
         butdb.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -50,7 +51,7 @@ public class MainActivity extends AppCompatActivity
                 startActivity(intent);
             }
         });
-        CircleImageView signup = findViewById(R.id.signupbtn);
+        CardView signup = findViewById(R.id.signupbtn);
         final Context contextsu = this;
         signup.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -59,7 +60,7 @@ public class MainActivity extends AppCompatActivity
                 startActivity(intent);
             }
         });
-        CircleImageView conbtn = findViewById(R.id.cntctus);
+        CardView conbtn = findViewById(R.id.cntctus);
         final Context contextcntct = this;
         conbtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -68,7 +69,7 @@ public class MainActivity extends AppCompatActivity
                 startActivity(intent);
             }
         });
-        CircleImageView itembtn = findViewById(R.id.menubtn);
+        CardView itembtn = findViewById(R.id.menubtn);
         final Context contextitem = this;
         itembtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -86,7 +87,7 @@ public class MainActivity extends AppCompatActivity
                 startActivity(intent);
             }
         });
-        CircleImageView sharebt = findViewById(R.id.shareapbtn);
+        CardView sharebt = findViewById(R.id.shareapbtn);
         final Context contextshare = this;
         sharebt.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -102,15 +103,6 @@ public class MainActivity extends AppCompatActivity
         });
     }
 
-//    public void openSignUpActivity(){
-//        Intent intent = new Intent ( this, Sign_Up.class);
-//        startActivity(intent);
-//    }
-//
-//    public void openLoginActivity(){
-//        Intent intent = new Intent(this, Log_in.class);
-//        startActivity(intent);
-//    }
 
     @Override
     public void onBackPressed() {
