@@ -20,6 +20,9 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
-    <include layout="@layout/content_capture_butterfly" />
+    <include layout="@layout/content_capture_butterfly"
+
+        />
+
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

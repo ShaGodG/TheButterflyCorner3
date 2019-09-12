@@ -10,6 +10,7 @@ import android.provider.MediaStore;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
+import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -27,6 +28,7 @@ import com.karumi.dexter.listener.multi.MultiplePermissionsListener;
 import com.tbg.www.thebutterflycorner.ui.CameraUtils;
 
 import java.io.File;
+import java.util.ArrayList;
 import java.util.List;
 
 public class capture_butterfly extends AppCompatActivity {
@@ -54,6 +56,7 @@ public class capture_butterfly extends AppCompatActivity {
     private ImageView imgPreview;
     private VideoView videoPreview;
     private Button btnCapturePicture;
+    GridView gridView;
 
 
     @Override
@@ -61,6 +64,8 @@ public class capture_butterfly extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_capture_butterfly);
         Toolbar toolbar = findViewById(R.id.toolbar);
+        gridView = findViewById(R.id.grid_view);
+
         setSupportActionBar(toolbar);
 
         // Checking availability of the camera
@@ -72,8 +77,7 @@ public class capture_butterfly extends AppCompatActivity {
             finish();
         }
 
-        txtDescription = findViewById(R.id.txt_desc);
-        imgPreview = findViewById(R.id.imgPreview);
+
         btnCapturePicture = findViewById(R.id.btnCapturePicture);
 
         /**
@@ -220,10 +224,13 @@ public class capture_butterfly extends AppCompatActivity {
             // hide audio preview
             txtDescription.setVisibility(View.GONE);
             imgPreview.setVisibility(View.VISIBLE);
-
+            ArrayList<Bitmap> gridArray = new ArrayList<Bitmap>();
             Bitmap bitmap = CameraUtils.optimizeBitmap(BITMAP_SAMPLE_SIZE, imageStoragePath);
+            gridArray.add(bitmap);
+            gridView = (GridView) findViewById(R.id.grid_view);
+            PicGridLayout customGridAdapter = new PicGridLayout(this, R.layout.image_grid_layout, gridArray);
+            gridView.setAdapter(customGridAdapter);
 
-            imgPreview.setImageBitmap(bitmap);
 
         } catch (NullPointerException e) {
             e.printStackTrace();
